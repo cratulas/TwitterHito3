@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+50.times do |i|
+    Tweet.create(content: "Tweet ##{i}", user_id: i, like_count: 50, retweets_count: 10, rewtitted_from: 2)
+end
+
