@@ -21,8 +21,18 @@ module Api
                 else
                     render json: array
                 end
+            end
 
+            def by_date
+                prueba = params[:date]
+                array1 = prueba.split('-')
+                prueba1 = params[:date1]
+                array2 = prueba1.split('-')
 
+                menor = Time.new(array1[0],array1[1],array1[2])
+                mayor = Time.new(array2[0],array2[1],array2[2])
+                byebug
+                
             end
 
         end
