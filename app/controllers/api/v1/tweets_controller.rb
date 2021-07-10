@@ -31,7 +31,9 @@ module Api
 
                 menor = Time.new(array1[0],array1[1],array1[2])
                 mayor = Time.new(array2[0],array2[1],array2[2])
-                byebug
+                @tweets = Tweet.mayores(menor).where('created_at < ?', mayor)
+
+                render json: @tweets 
                 
             end
 
