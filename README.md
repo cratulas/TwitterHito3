@@ -1,24 +1,4 @@
-# README
+Seed de prueba que genera 50 tweets
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+En la historia 2 ingresar la fecha con el siguiente formato http://localhost:3000/api/v1/2021-07-09/2021-07-10 , siendo el primer dato el menor y el segundo el mayor
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
